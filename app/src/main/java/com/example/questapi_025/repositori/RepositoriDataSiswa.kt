@@ -15,7 +15,7 @@ interface RepositoryDataSiswa {
 
 class JaringanRepositoryDataSiswa(
     private val serviceApiSiswa: ServiceApiSiswa
-) : com.example.questapi.repositori.RepositoryDataSiswa {
+) : RepositoryDataSiswa {
 
     override suspend fun getDataSiswa(): List<DataSiswa> {
         return serviceApiSiswa.getSiswa().data

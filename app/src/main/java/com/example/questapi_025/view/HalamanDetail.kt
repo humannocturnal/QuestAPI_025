@@ -39,6 +39,7 @@ import kotlinx.coroutines.launch
 import com.example.questapi_025.R
 import com.example.questapi_025.viewmodel.DetailViewModel
 import com.example.questapi_025.viewmodel.StatusUIDetail
+import com.example.questapi_025.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -46,7 +47,7 @@ fun DetailSiswaScreen(
     navigateToEditItem: (Int) -> Unit,
     navigateBack: () -> Unit,
     modifier: Modifier = Modifier,
-    viewModel: DetailViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    viewModel: DetailViewModel = viewModel(factory = PenyediaViewModel .Factory)
 ) {
 
     Scaffold(

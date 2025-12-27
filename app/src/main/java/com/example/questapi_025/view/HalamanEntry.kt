@@ -29,13 +29,14 @@ import com.example.questapi_025.uicontroller.route.DestinasiEntry
 import kotlinx.coroutines.launch
 import com.example.questapi_025.R
 import com.example.questapi_025.viewmodel.EntryViewModel
+import com.example.questapi_025.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EntrySiswaScreen(
     navigateBack: () -> Unit,
     modifier: Modifier = Modifier,
-    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel .Factory)
 ) {
 
     val coroutineScope = rememberCoroutineScope()

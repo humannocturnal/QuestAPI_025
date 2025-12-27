@@ -10,6 +10,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.questapi_025.uicontroller.route.DestinasiEdit
 import com.example.questapi_025.viewmodel.EditViewModel
+import com.example.questapi_025.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -18,7 +19,7 @@ fun EditSiswaScreen(
     navigateBack: () -> Unit,
     onNavigateUp: () -> Unit,
     modifier: Modifier = Modifier,
-    viewModel: EditViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    viewModel: EditViewModel = viewModel(factory = PenyediaViewModel .Factory)
 ) {
     Scaffold(
         topBar = {

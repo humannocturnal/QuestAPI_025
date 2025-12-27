@@ -12,6 +12,10 @@ import com.example.questapi_025.uicontroller.route.DestinasiDetail
 import com.example.questapi_025.uicontroller.route.DestinasiEdit
 import com.example.questapi_025.uicontroller.route.DestinasiEntry
 import com.example.questapi_025.uicontroller.route.DestinasiHome
+import com.example.questapi_025.view.DetailSiswaScreen
+import com.example.questapi_025.view.EditSiswaScreen
+import com.example.questapi_025.view.EntrySiswaScreen
+import com.example.questapi_025.view.HomeScreen
 
 @Composable
 fun DataSiswaApp(

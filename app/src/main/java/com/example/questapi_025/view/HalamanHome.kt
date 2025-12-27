@@ -40,6 +40,7 @@ import com.example.questapi_025.R
 import com.example.questapi_025.modeldata.DataSiswa
 import com.example.questapi_025.viewmodel.HomeViewModel
 import com.example.questapi_025.viewmodel.StatusUiSiswa
+import com.example.questapi_025.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -49,7 +50,7 @@ fun HomeScreen(
     // edit 2.4 : tambahkan parameter navigateToItemUpdate
     navigateToItemUpdate: (Int) -> Unit,
     modifier: Modifier = Modifier,
-    homeViewModel: HomeViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    homeViewModel: HomeViewModel = viewModel(factory = PenyediaViewModel .Factory)
 ) {
     val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
 
@@ -120,7 +121,7 @@ fun HomeBody(
 fun LoadingScreen(modifier: Modifier = Modifier) {
     Image(
         modifier = modifier.size(200.dp),
-        painter = painterResource(R.drawable.loading_img),
+        painter = painterResource(R.drawable.loading),
         contentDescription = stringResource(R.string.loading)
     )
 }

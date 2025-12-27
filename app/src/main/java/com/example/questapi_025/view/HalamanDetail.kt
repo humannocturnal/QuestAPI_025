@@ -37,6 +37,8 @@ import com.example.questapi_025.modeldata.DataSiswa
 import com.example.questapi_025.uicontroller.route.DestinasiDetail
 import kotlinx.coroutines.launch
 import com.example.questapi_025.R
+import com.example.questapi_025.viewmodel.DetailViewModel
+import com.example.questapi_025.viewmodel.StatusUIDetail
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

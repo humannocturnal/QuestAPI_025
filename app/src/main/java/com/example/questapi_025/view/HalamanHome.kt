@@ -38,6 +38,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.questapi_025.uicontroller.route.DestinasiHome
 import com.example.questapi_025.R
 import com.example.questapi_025.modeldata.DataSiswa
+import com.example.questapi_025.viewmodel.HomeViewModel
+import com.example.questapi_025.viewmodel.StatusUiSiswa
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

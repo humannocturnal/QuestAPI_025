@@ -36,6 +36,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.questapi_025.modeldata.DataSiswa
 import com.example.questapi_025.uicontroller.route.DestinasiDetail
 import kotlinx.coroutines.launch
+import com.example.questapi_025.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
